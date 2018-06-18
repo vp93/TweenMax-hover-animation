@@ -1,0 +1,30 @@
+body {
+  font-family:'montserrat';
+  background: #f9f9f9 /* radial-gradient(circle,#3a60a3,#182a59);*/
+}
+
+body.dark {
+  font-family:'montserrat';
+  background:  radial-gradient(circle,#1f1f1f,#000);
+}
+
+canvas {
+  width: 100%;
+}
+
+.bg-change {
+  position:absolute;
+  color:#000;
+  top:50px;
+  left:50px;
+  padding:20px;
+  background:transparent;
+  border-radius:5px;
+  border:1px solid #c1c1c1;
+  cursor:pointer;
+  
+}
+.bg-change.whitetext {
+ color:#fff;
+  
+}
